@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '../assets/FOCO T COLOR.png'
 
 const preguntas = [
     "¿Quién quiere ver el progreso de la nueva herramienta de las inmobiliarias?",
@@ -49,7 +50,7 @@ function RoleSelection({ onSelectRole }) {
 
                 {/* Logo + Título */}
                 <div className="flex justify-center mb-8">
-                    <img src="/src/assets/FOCO T COLOR.png" alt="Tipstate" className="w-16 h-16" />
+                    <img src={logo} alt="Tipstate" className="w-16 h-16" />
                 </div>
 
                 <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-4">
